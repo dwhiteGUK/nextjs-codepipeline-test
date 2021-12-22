@@ -3,4 +3,4 @@ nextjsCodepipelineTest:
   inputs:
     bucketName: "guk-nextjs-codepipeline-test"
     bucketRegion: "eu-west-2"
-    roleArn: "arn:aws:iam::324955271552:user/poc-strapi-frontend"
+    roleArn: "arn:aws:iam::324955271552:role/nextjsDeploy"
