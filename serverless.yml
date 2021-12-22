@@ -1,0 +1,10 @@
+serverlessNextjsDeployTest:
+  component: "@sls-next/serverless-component@3.6.0"
+  inputs:
+    bucketName: "nextjs-codepipeline-test"
+    bucketRegion: "eu-west-2"
+    roleArn: "arn:aws:iam::324955271552:user/poc-strapi-frontend"
+    # cloudfront:
+    #   aliases: ["gentingcasinos.co.uk", "www.gentingcasinos.co.uk"]
+    #   certificate:
+    #     acmCertificateArn: "arn:aws:acm:us-east-1:997546775405:certificate/5d049607-cfb1-48c5-92d6-06053b509583"
