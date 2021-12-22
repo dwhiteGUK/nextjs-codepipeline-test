@@ -1,4 +1,4 @@
-serverlessNextjsDeployTest:
+nextjsCodepipelineTest:
   component: "@sls-next/serverless-component@3.6.0"
   inputs:
     bucketName: "nextjs-codepipeline-test"
